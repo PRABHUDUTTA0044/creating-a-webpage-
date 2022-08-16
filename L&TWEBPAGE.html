@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: sans-serif;
+            
+        }
+    header section nav{
+        background-color: black;
+        
+    }
+    header{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        padding-left: 50px;
+        background-color:black;
+        border-bottom: #e8491d 4px solid;
+        
+    }
+    section{
+        flex: 2;
+        font-size: 20px;
+        color:white;
+        margin-right: 10px;
+    }
+    nav li a{
+        flex: 1;
+        padding: 2px;
+        text-decoration: none;
+        color:white;
+        font-size: 20px;
+        padding-right: 50px;
+        
+
+
+    }
+    nav li.active a{
+        color: orangered;
+    }
+    ul{
+        display:flex;
+        
+    }
+    .main{
+        text-align: center;
+        background-image: url(./showcase.jpg);
+        padding: 80px;
+        background-size: cover;
+        background-position: center;
+    
+    }
+    .main h1{
+        font-size: 60px;
+        color: white;
+    }
+    .main p{
+        font-size: 20px;
+        color: white;
+    }
+    span{
+        color: orangered;
+    }
+    main{
+        display: flex;
+        padding: 20px;
+        background-color: #343a40;
+
+
+    }
+    input{
+        padding: 10px;
+        color: #fff;
+    }
+    footer{
+        display: flex;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .end{
+        background-color: #e8491d;
+        color:white;
+        text-align: center;
+        padding: 10px;
+    }
+    .box{
+            padding-right: 40px;
+    }
+
+
+    </style>
+</head>
+<body>
+    <header>
+    <section>
+        <h1><span>Acne</span> Web design</h1>
+    </section>
+        <nav> 
+            <ul style="list-style-type: none;">
+            <li class="active"><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICE</a></li>
+
+        </ul>
+    </nav>
+    </header>
+    <div class="main">
+        <h1>Affordable proffessional web design</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam aliquam magni tempore, unde consectetur maxime eius eum quis nam, neque.?</p>
+    </div>
+    <main>
+    <section>
+        Subscribe to our newsletter
+    </section>
+    <nav class="box">
+        <input type="text" placeholder="Enter email..">
+        <input type="button" value="Subscribe" style="background-color: red;">
+    </nav>
+</main>
+         </div>
+
+         <footer>
+            <div>
+                <img src="./logo_html.png" alt="">
+                <h3>HTML5</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae provident voluptates perspiciatis assumenda minus, quaerat sit! Nisi fugiat quisquam molestiae natus in, ducimus non ullam quam illum? Doloremque, illo hic?</p>
+            </div>
+            <div>
+                <img src="./logo_css.png" alt="">
+                <h3>CSS3 Styling</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae provident voluptates perspiciatis assumenda minus, quaerat sit! Nisi fugiat quisquam molestiae natus in, ducimus non ullam quam illum? Doloremque, illo hic?</p>
+            </div>
+            <div>
+                <img src="./New folder/logo_brush.png" alt="">
+                <h3>Graphic design</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae provident voluptates perspiciatis assumenda minus, quaerat sit! Nisi fugiat quisquam molestiae natus in, ducimus non ullam quam illum? Doloremque, illo hic?</p>
+            </div>
+         </footer>
+         <div class="end">
+            <p>Acme Web Design, Copyright &copy; 2020</p>
+         </div>
+
+
+</body>
+</html>
